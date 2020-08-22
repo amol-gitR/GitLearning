@@ -1,5 +1,5 @@
-var http = require('http');
-var fs= require('fs');
+ var http = require('http');
+ var fs= require('fs');
 
 http.createServer(function(req,res){
     fs.appendFile('web.html','hrojkkk',function(err){
